@@ -1,0 +1,48 @@
+.body-data {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card {
+  margin: 10px;
+}
+.card-img-top {
+  width: 100px;
+  height: 300px;
+}
+.card-body {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.bg-body-tertiary {
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+}
+.edit-card {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer {
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ul-list {
+  list-style-type: none;
+}
+.p-2 {
+  border-radius: 10px;
+}
+.foot-copy {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
